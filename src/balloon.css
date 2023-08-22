@@ -1,0 +1,24 @@
+.balloon {
+    width: 180px;
+    height: 120px;
+    background-color: rgb(219, 39, 192);
+    border-radius: 50% 50% 60% 60%;
+    
+    position: relative;
+    transform-origin: bottom center;
+    transition: transform 0.3s ease-in-out;
+    margin:250px;
+    animation: inflate 2s ease-in-out infinite;
+  }
+  button{
+    background-color: white;
+    color:navy;
+  }
+  @keyframes inflate {
+    0%, 100% {
+      transform: scaleY(1) translateY(0);
+    }
+    50% {
+      transform: scaleY(1.5) translateY(-50px);
+    }
+  }

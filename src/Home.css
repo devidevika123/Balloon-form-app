@@ -1,0 +1,10 @@
+.btn{
+    align-items: center;
+    padding:10px;
+    border:1px solid navy;
+    justify-content: center;
+    background-color: white;
+    color:rgb(8, 6, 6);
+    margin: 20px 0 0 10px;
+
+}
